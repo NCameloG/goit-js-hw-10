@@ -1,0 +1,33 @@
+/* Add your CSS styles here */
+.title{
+  border: 5px  solid rgb(0, 150, 136) ; 
+  box-shadow:  0 10 10px rgb(0, 0, 0);  
+}
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: center;
+}
+.breed-select{
+  border: 3px solid rgb(0, 150, 136) ;
+  padding: 8px;
+  text-align: center;
+}
+.loader {
+  display: none;
+  color: rgb(0, 150, 136);
+}
+
+.error {
+  display: none;
+  color: rgb(255, 0, 0);
+}
+
+.cat-info img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 5px;
+  border-radius: 10px; /* Agregar bordes redondeados */
+  box-shadow: 0 5px 12px rgba(0, 0, 0, 0.534); /* Agregar sombra */
+  margin-top: 15px;
+}
